@@ -18,6 +18,8 @@ public class ProbarCoche {
         c1.modelo = "Auris";
         c1.tipoMotor = "gasolina";
         c1.numPuertas = 5;
+        c1.acelerar();
+        c1.frenar();
 
         Coche c2 = new Coche();
         c2.color = "rojo";
@@ -25,6 +27,8 @@ public class ProbarCoche {
         c2.modelo = "Renault xx";
         c2.numPuertas = 3;
         c2.electrico = true;
+        c2.acelerar();
+        c2.frenar();
 
 
     }

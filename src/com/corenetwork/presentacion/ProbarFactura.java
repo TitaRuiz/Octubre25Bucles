@@ -20,6 +20,7 @@ public class ProbarFactura {
 
         System.out.println("id factura : " + f1.id + " importe de la factura : " + f1.importe + " cliente : " +
                 f1.cliente + " direccion entrega: " + f1.direccionEntrega);
-
+        System.out.println("El iva es ->" + f1.calcularIVA());
+        System.out.println("El iva es -> " + f1.calcularIVA(0.06));
     }
 }

@@ -7,5 +7,13 @@ public class Coche {
     public int numPuertas;
     public String modelo;
     public boolean electrico;
+
+    public void acelerar(){
+        System.out.println("El coche está acelerando");
+    }
+
+    public void frenar(){
+        System.out.println("El coche está frenando");
+    }
 }
 
